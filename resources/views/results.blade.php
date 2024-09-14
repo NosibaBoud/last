@@ -13,7 +13,7 @@
     <form class="row g-3">
   
   <div class="col-auto">
-    <label for="inputPassword2" class="visually-hidden">Receipt number</label>
+    <label for="input2" class="visually-hidden">Receipt number</label>
     <input type="text" class="form-control" id="inputtext2" placeholder="enter Receipt number">
   </div>
   <div class="col-auto">

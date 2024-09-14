@@ -1,5 +1,6 @@
 @extends('index')
-
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 @section('content') 
   <header class="bg-white shadow">
     <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
@@ -13,7 +14,7 @@
     <div class="col">
       <form class="form-inline my-2 my-lg-0" type="get" action="{{url('/search')}}">
     <input class="form-control mr-sm-2" type="search" name="search" placeholder="Search by name">
-    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+    <button class="btn btn-primary" type="submit">Search</button>
     </form>
       <br>
       <div class="space-y-4">

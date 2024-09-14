@@ -24,13 +24,7 @@ class User extends Authenticatable
         'password',
         
     ];
-    public function tests() {
-        return $this->hasMany(mtest::class);
-    }
-    public function mytests()
-{
-    return $this->hasMany(mytests::class);
-}
+  
 
     /**
      * The attributes that should be hidden for serialization.

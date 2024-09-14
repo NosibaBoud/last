@@ -1,4 +1,5 @@
 @extends('index')
+
 @section('content') 
 
 
@@ -12,7 +13,7 @@
 @if(!empty($tests))
     <ul>
         @foreach($tests as $test)
-            <li>{{ $test }}</li>
+        <li>{{ $test->investigation }}</li>
         @endforeach
     </ul>
     <a  class="btn btn-primary" href="{{url('/make appointment')}}">make home appointment</a>
